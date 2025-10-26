@@ -35,7 +35,7 @@ const About = () => {
         
         <div className="about-cta">
           <p>Currently open to roles in software engineering or cybersecurity.</p>
-          <a href="/resume.docx" className="resume-link">View Résumé →</a>
+          <a href="/mayajade_resume.pdf" className="resume-link">View Résumé →</a>
         </div>
       </div>
       <img src="/body.jpg" alt="Maya Jade" className="about-me__img" />

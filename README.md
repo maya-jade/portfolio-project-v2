@@ -73,7 +73,7 @@ portfolio-project/
 ├── public/              # Static assets
 │   ├── profile.png
 │   ├── body.jpg
-│   ├── resume.docx
+│   ├── mayajade_resume.pdf
 │   └── case-studies/
 ├── index.html           # HTML template
 ├── vite.config.ts       # Vite configuration
