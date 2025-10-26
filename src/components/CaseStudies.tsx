@@ -20,7 +20,7 @@ const caseStudies: CaseStudy[] = [
       'Dynamic rebate engine',
       'Advanced product filtering'
     ],
-    techStack: ['WordPress', 'WooCommerce', 'PHP', 'JavaScript', 'MySQL'],
+    techStack: ['Shopify', 'Typescript', 'Next.js', 'Prism', 'TailwindCSS'],
     caseStudy: '/case-studies/Encentiv_Case_Study.docx',
     icon: '🛒'
   },
@@ -33,7 +33,7 @@ const caseStudies: CaseStudy[] = [
       'Localization workflows',
       'SEO optimization'
     ],
-    techStack: ['Jahia CMS', 'React', 'Java', 'GraphQL', 'AWS'],
+    techStack: ['Jahia CMS', 'Hybris', 'Wordpress', 'Figma'],
     caseStudy: '/case-studies/MVW_Case_Study.docx',
     icon: '🏨'
   },
@@ -46,7 +46,7 @@ const caseStudies: CaseStudy[] = [
       'Multilingual sites',
       'Custom themes & plugins'
     ],
-    techStack: ['WordPress', 'React', 'Bootstrap', 'Elementor', 'SEO'],
+    techStack: ['WordPress','Bootstrap', 'Elementor', 'Divi', 'SEO'],
     caseStudy: '/case-studies/Web_Dev_Case_Study.docx',
     icon: '💼'
   }
