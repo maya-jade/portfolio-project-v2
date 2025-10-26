@@ -39,7 +39,7 @@ const personalProjects: Project[] = [
   {
     title: 'Portfolio v1',
     description: 'First iteration of my portfolio site built with React, TypeScript, and Vite. Foundation for the current version.',
-    link: 'https://portfolio-project-sage-ten.vercel.app/'
+    link: 'https://v1.maya-jade.dev/'
   },
   {
     title: 'This Website!',
