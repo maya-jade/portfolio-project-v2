@@ -37,9 +37,15 @@ const personalProjects: Project[] = [
     link: 'https://github.com/maya-jade/hognose-queen-website'
   },
   {
+    title: 'Portfolio v1',
+    description: 'First iteration of my portfolio site built with React, TypeScript, and Vite. Foundation for the current version.',
+    link: 'https://portfolio-project-sage-ten.vercel.app/'
+  },
+  {
     title: 'This Website!',
     description: 'A portfolio site built with React and TypeScript, designed for performance and clarity. Deployed via Vercel.',
-    link: 'https://github.com/maya-jade/portfolio-project'
+    link: 'https://github.com/maya-jade/portfolio-project',
+    featured: true
   }
 ];
 
@@ -65,6 +71,7 @@ const Projects = () => {
             <h3>🛠️ Client Work</h3>
             <span className="projects-note">Early career freelance projects</span>
           </div>
+          <p className="projects-disclaimer">⚠️ Early work from 2018-2020 — archived for reference</p>
           <div className="projects-grid">
             {clientProjects.map((project, index) => (
               <div key={index} className="project-card">
@@ -91,9 +98,10 @@ const Projects = () => {
             <h3>💡 Personal Projects</h3>
             <span className="projects-note">Open source & learning experiments</span>
           </div>
+          <p className="projects-disclaimer">⚠️ Most of these are early learning projects — kept for nostalgia and growth tracking!</p>
           <div className="projects-grid">
             {personalProjects.map((project, index) => (
-              <div key={index} className="project-card">
+              <div key={index} className={`project-card ${project.featured ? 'featured' : ''}`}>
                 <h4>
                   {project.link ? (
                     <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
@@ -102,6 +110,7 @@ const Projects = () => {
                   ) : (
                     project.title
                   )}
+                  {project.featured && <span className="featured-badge" style={{ marginLeft: '0.5rem' }}>✨ Latest</span>}
                 </h4>
                 <p>{project.description}</p>
               </div>

@@ -3,6 +3,7 @@ export interface Project {
   description: string;
   link?: string;
   caseStudy?: string;
+  featured?: boolean;
 }
 
 export interface Service {
